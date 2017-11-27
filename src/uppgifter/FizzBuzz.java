@@ -13,7 +13,7 @@ public class FizzBuzz {
 	 
 	 int N = sc.nextInt();
 	 
-	 for (int i = 1; i < N; i++) {
+	 for (int i = 1; i <= N; i++) {
 		
 		 if(i%Fizz==0){
 			System.out.println("Fizz");
