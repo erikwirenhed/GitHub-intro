@@ -7,7 +7,7 @@ public class FizzBuzz {
 	
 	 Scanner sc = new Scanner(System.in); 
 	 
-	 System.out.println("");
+	 System.out.println("Skriv in tre siffror och se vilka som är delbara med den första och andra siffran i en sträcka som är så lång som den tredje siffran är.");
 	 int Fizz = sc.nextInt();
 	 
 	 int Buzz = sc.nextInt();
