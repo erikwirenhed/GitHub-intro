@@ -7,8 +7,21 @@ public class FizzBuzz {
 	
 	 Scanner sc = new Scanner(System.in); 
 	 
+	 int Fizz = sc.nextInt();
 	 
+	 int Buzz = sc.nextInt();
 	 
+	 int N = sc.nextInt();
+	 
+	 for (int i = 0; i < N; i++) {
+		
+		 if(i%Fizz==0){
+			System.out.println("Fizz");
+		 }
+		 else if(i%Buzz==0){
+			 System.out.println("Buzz");
+		 }
+	}
 }
 
 }
