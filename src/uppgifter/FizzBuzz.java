@@ -7,6 +7,7 @@ public class FizzBuzz {
 	
 	 Scanner sc = new Scanner(System.in); 
 	 
+	 System.out.println("");
 	 int Fizz = sc.nextInt();
 	 
 	 int Buzz = sc.nextInt();
@@ -20,6 +21,9 @@ public class FizzBuzz {
 		 }
 		 else if(i%Buzz==0){
 			 System.out.println("Buzz");
+		 }
+		 else if(i%Fizz==0 && i%Buzz==0){
+			 System.out.println("FizzBuzz");
 		 }
 		 else{
 			 System.out.println(i);
