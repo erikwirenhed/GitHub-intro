@@ -9,13 +9,14 @@ public class UnbearableZoo {
 		
 		int a = sc.nextInt();
 		
+		String[]strarr= new String[0];
 				
 		for (int i = 0; i <= a; i++) {
 			String c = sc.nextLine();
 			
 			String last = c.substring(c.lastIndexOf(" ")+1);
-			System.out.println(last);
+			strarr[i] = last; 
 		}
-		
+		System.out.println(strarr[a]);
 	}
 }
